@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\YGL">
+      <UniqueIdentifier>{ca25e0cb-e0cb-4992-b32f-437e5b27e1d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sub.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Config.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Graphic.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Picture.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Sound.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Text.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Time.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\YGL.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Core\Core.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Core\Core_Graphic.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Core\Core_Sound.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Core\Core_Time.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+    <ClCompile Include="YGL\Core\Core_Window.cpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sub.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Config.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Graphic.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Picture.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Sound.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Text.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Time.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\YGL.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Core\Core.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Core\Core_Graphic.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Core\Core_Sound.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Core\Core_Time.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+    <ClInclude Include="YGL\Core\Core_Window.hpp">
+      <Filter>ヘッダー ファイル\YGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
